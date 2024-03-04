@@ -4,13 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import ButtonComponent from "./ButtonComponent";
 import CartWidget from "./CartWidget";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {  faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function NavBarApp() {
 
   return (
     <Navbar expand="lg" className="navBack">
       <Container>
-        <Navbar.Brand>SweetStationery</Navbar.Brand>
+        <Navbar.Brand>Sweet <FontAwesomeIcon icon={faHeart} /> Stationery</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

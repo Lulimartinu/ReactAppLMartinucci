@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavBarApp/>
-      <ItemsListContainer greeting = "Bienvenidos a SweetStationery"/>
+      <ItemsListContainer greeting = "Bienvenidos a SweetStationery" />
     </>
   )
 }
