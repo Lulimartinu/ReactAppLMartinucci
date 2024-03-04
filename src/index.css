@@ -48,3 +48,8 @@ button:focus-visible {
 .navBack{
   background-color: pink;
 }
+
+#logo{
+  width: auto;
+ height: 60px;
+}

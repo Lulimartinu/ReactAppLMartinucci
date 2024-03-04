@@ -12,6 +12,7 @@ function NavBarApp() {
   return (
     <Navbar expand="lg" className="navBack">
       <Container>
+      <img src="https://i.imgur.com/NLkfUsC.png" alt="logo" id="logo"></img>
         <Navbar.Brand>Sweet <FontAwesomeIcon icon={faHeart} /> Stationery</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
