@@ -6,11 +6,12 @@ import ButtonComponent from "./ButtonComponent";
 import CartWidget from "./CartWidget";
 
 function NavBarApp() {
+
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navBack">
       <Container>
         <Navbar.Brand>SweetStationery</Navbar.Brand>
-
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -33,7 +34,7 @@ function NavBarApp() {
                 Cuadernos&Cuadernolas
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Ver más</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Ver catálogo</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <CartWidget />
