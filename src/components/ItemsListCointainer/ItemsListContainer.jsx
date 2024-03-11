@@ -1,3 +1,4 @@
+import ItemCount from "../ItemCount/ItemCount"
 
 export default function ItemsListContainer({greeting}) {
  
@@ -6,7 +7,7 @@ export default function ItemsListContainer({greeting}) {
       <section className="greeting"> 
         <h2 className='text-info'> {greeting}</h2>
       </section>
-      
+      <ItemCount/>
        </>
     )
    }

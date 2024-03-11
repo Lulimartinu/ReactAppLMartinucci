@@ -2,8 +2,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import ButtonComponent from "./ButtonComponent";
-import CartWidget from "./CartWidget";
+import ButtonComponent from "../Button/ButtonComponent";
+import CartWidget from "../CartWidget/CartWidget";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faHeart } from "@fortawesome/free-solid-svg-icons";
 

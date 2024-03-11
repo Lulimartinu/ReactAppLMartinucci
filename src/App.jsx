@@ -1,7 +1,8 @@
 
 import './App.css'
-import ItemsListContainer from './components/ItemsListContainer'
-import NavBarApp from './components/NavBarApp'
+
+import ItemsListContainer from './components/ItemsListCointainer/ItemsListContainer'
+import NavBarApp from './components/NavBar/NavBarApp'
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <NavBarApp/>
       <ItemsListContainer greeting = "Bienvenidos a SweetStationery" />
+    
     </>
   )
 }
